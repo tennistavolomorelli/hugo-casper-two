@@ -64,5 +64,3 @@ canonifyurls    = true
   name = "External"
   url = "https://google.com/"
   weight = 95
-
-

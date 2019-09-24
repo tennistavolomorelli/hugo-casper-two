@@ -74,3 +74,18 @@
 .post-full-content pre code {
     color: #e5eff5;
 }    
+
+.site-logo {
+  max-height: 200px;
+}
+
+.site-description {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.social-link svg{
+  height:3rem;
+  fill:#fffff
+
+}

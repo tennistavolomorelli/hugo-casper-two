@@ -24,7 +24,7 @@
               {{ if .Description }} 
                 <p>{{ .Description | markdownify }}</p>
               {{else}}
-                <p>{{ .Summary | plainify | safeHTML }}{{ if .Truncated }} ... {{end}} </p>
+                <p>{{ .Summary | plainify | safeHTML }}{{ if .Truncated }} <div class="continua">Continua a leggere...</div>{{end}} </p>
               {{end}}
           </section>
       </a>

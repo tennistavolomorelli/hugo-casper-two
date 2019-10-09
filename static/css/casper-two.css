@@ -87,5 +87,9 @@
 .social-link svg{
   height:3rem;
   fill:#fffff
+}
 
+.continua {
+    font-style:italic;
+    color:#0e4729;
 }
